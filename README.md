@@ -21,19 +21,19 @@ This is an example of a Java Spring Boot API using JPA and Postgres database. He
 
 The most used JPA mappings are:
 
-- @OneToOne
-- @OneToMany
-- @ManyToOne
-- @ManyToMany
+- OneToOne
+- OneToMany
+- ManyToOne
+- ManyToMany
 
 This is because these mappings generally resolve almost all situations. However, there are other types of mappings such as:
 
-- @ElementCollection
-- @Embedded
-- @Embeddable
-- @MapKey
-- @OrderBy
-- @OrderColumn
+- ElementCollection
+- Embedded
+- Embeddable
+- MapKey
+- OrderBy
+- OrderColumn
 
 In this project, only the most used mappings were used.
 

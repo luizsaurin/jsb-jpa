@@ -7,5 +7,5 @@ CREATE TABLE users (
 	CONSTRAINT users_pkey PRIMARY KEY (id),
 	CONSTRAINT users_user_profile_id_key UNIQUE (user_profile_id),
 	CONSTRAINT users_username_key UNIQUE (username),
-	CONSTRAINT user_profile_fk FOREIGN KEY (user_profile_id) REFERENCES user_profiles(id)
+	CONSTRAINT user_profile_id_fk FOREIGN KEY (user_profile_id) REFERENCES user_profiles(id)
 );
